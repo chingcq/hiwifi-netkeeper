@@ -21,6 +21,7 @@
  - 拨号选用pppoe，在高级设置里面设置：plugin /jffs/pppd/你的省份的so文件名   
 
 2、 mipsel下面是MT7620系列的so文件，本版本是自己编译的2.4.5版本的pppd相匹配的，未测试2.4.7是否能用。  
+
    如果某些省份不用使用请到miao1007的源码下载他事先编译好的固件,解压得到自己对应省份的so文件。  
    
  - 在windows下使用winscp上传到/usr/lib/pppd/2.4.5/下。然后在/etc/config/network里，在pppoe里面添加option pppd_options 'plugin 你的省份的so文件名'  
