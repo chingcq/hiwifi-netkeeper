@@ -8,7 +8,7 @@
 
  ```
  wget https://raw.githubusercontent.com/xratzh/hiwif-netkeeper/install.sh
- sudo sh install.sh
+ sudo bash install.sh
  ```  
  ---
  
