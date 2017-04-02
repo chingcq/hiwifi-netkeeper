@@ -1,7 +1,7 @@
 #! /bin/sh
 PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
 
-cd /usr/lib/2.4.5/
+cd /usr/lib/pppd/2.4.5/
 Dispaly_Selection(){
     def_Install_Select="1"
     echo -e "${COLOR_YELOW}You have 12 options for your installation.${COLOR_END}"
