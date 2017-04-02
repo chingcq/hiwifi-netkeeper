@@ -7,8 +7,8 @@
 # 用法：  
 
  ```
- wget https://raw.githubusercontent.com/xratzh/hiwifi-netkeeper/master/install.sh
- sudo bash install.sh
+ curl -kso install.sh https://raw.githubusercontent.com/xratzh/hiwifi-netkeeper/master/install.sh
+ sudo sh install.sh
  ```  
  ---
  
